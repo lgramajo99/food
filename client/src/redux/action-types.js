@@ -1,1 +1,1 @@
-
+export const TOGGLE_HAMGURGER = 'TOGGLE_HAMGURGER';
