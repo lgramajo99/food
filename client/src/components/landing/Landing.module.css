@@ -1,0 +1,48 @@
+.divPadre {
+    background-image: url('https://spoonacular.com/recipeImages/7-556x370.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2.5rem 0;
+}
+
+.landing {
+
+    width: 70%;
+    margin: auto auto;
+    padding: .5rem 2rem;
+    border-radius: 1rem;
+    background-color: #555555;
+}
+
+.divEntrarComo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btnEntrar {
+    display: block;
+    background-color: #4CAF50;
+    border: none;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+.btnEntrar:hover {
+    background-color: #3e8e41;
+}
+
+@media (max-width: 767.98px) {
+    .landing {
+        width: 90%;
+        height: auto;
+        padding: .5rem .5rem;
+    }
+}
